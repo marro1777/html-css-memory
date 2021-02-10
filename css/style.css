@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Nerko One';
+    background-color: skyblue;
+  }
+  
+  main {
+    width: 1024px;
+    margin: auto;
+  }
+  
+  .container {
+    position: relative;
+    height: 800px;
+    width: 1100px;
+  }
+  
+  /* header */
+  
+  .title {
+    text-align: center;
+    font-size: 100px;
+    color: white;
+  }
+  
+  /* cards */
+
+  .row {
+    margin: 0 50px;
+  }
+  
+  .card {
+    display: inline-block;
+    position: relative;
+    width: 200px;
+    height: 250px;
+    margin: 10px 10px;
+    background-image: url("../img/pattern.png");
+    background-size: 70%;
+    box-shadow: 5px 5px 20px  grey;
+    border-radius: 15px;
+    vertical-align: middle;
+    text-align: center;
+    font-size: 30px;
+  }
+  .card:hover{
+    background-color: white;
+    background-repeat: no-repeat;
+    background-size: 80%;
+    background-position: center;
+    }
+  
+  /* background cards */
+
+  .bicycle:hover {
+    background-image: url("../img/noun_Bicycle_3134821.png");
+    color: blue;
+  }
+  
+  .airbaloon:hover {
+    background-image: url("../img/noun_air_balloon_3134741.png");
+    color: pink;
+  }
+  
+  .cruise:hover {
+    background-image: url("../img/noun_Cruise_Ship_3134824.png");
+    color: orange;
+  }
+  
+  .submarine:hover {
+    background-image: url("../img/noun_Submarine_3134738.png");
+    color:red;
+  }
+  
+  .tractor:hover {
+    background-image: url("../img/noun_Tractor_3134797.png");
+    color: green;
+  }
+  
+  .caravan:hover {
+    background-image: url("../img/noun_Tram_3134750.png");
+    color: purple;
+  }
+  
+  .turned {
+    background-image: url("../img/noun_air_balloon_3134741.png");
+    background-color: white;
+    background-size: 80%;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+  .text_turned {
+    display: block;
+    color: pink;
+  }
+
+  /* cards text */
+ 
+  span {
+    position: absolute;
+    bottom: 5px;
+    display: none;
+    width: inherit;
+  }
+  
+  .card:hover span{
+    display: block;
+  }
+  
+  /* footer */
+  .text_footer {
+    text-align: center;
+  }
